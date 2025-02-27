@@ -83,7 +83,7 @@ services:
     #   - "traefik.http.middlewares.compresstraefik.compress=true"
     #   # Specify which Docker network Traefik should use for routing
     #   - "traefik.docker.network=traefik-network"
-    porys: 
+    ports: 
       - 9009:8080
       - 9002:9000
       - 1443:8443
