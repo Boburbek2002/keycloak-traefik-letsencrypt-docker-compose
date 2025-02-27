@@ -85,8 +85,8 @@ services:
     #   - "traefik.docker.network=traefik-network"
     porys: 
       - 9009:8080
-      - 9001:9000
-      - 9443:8443
+      - 9002:9000
+      - 1443:8443
     restart: always
     depends_on:
       postgres:
